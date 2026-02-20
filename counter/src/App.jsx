@@ -9,8 +9,20 @@ function App() {
     
   const addValue =()=>{
     if(counter<20){
-setCounter(counter+1); //Hooks
-console.log(counter);
+setCounter(counter+1); 
+//   //   after clicking one time button
+// setCounter(pcounter=>pcounter+1);  // counter ---> 1   run
+// setCounter(pcounter=>pcounter+1); //  counter   ---> 2   run
+// setCounter(pcounter=>pcounter+1); // counter  ---> 3   run
+// setCounter(pcounter=>pcounter+1); // counter ---> 4    run
+
+
+// //    after clicking one time button
+// setCounter(counter+1);   // counter ---> 1   run
+// setCounter(counter+1);   // counter ---> 1  not run
+// setCounter(counter+1);   // counter ---> 1  not run
+// setCounter(counter+1);   // counter ---> 1   not run
+// console.log(counter);
     }
     }
    
